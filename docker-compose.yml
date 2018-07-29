@@ -1,0 +1,19 @@
+version: '2'
+services:
+  api:
+    image: finetune-api
+    ports:
+      - 8000:8000
+    container_name: api
+
+  client:
+    image: finetune-client
+    ports:
+      - 9000:80
+    depends_on:
+      - api
+    links:
+      - api:api
+    container_name: client
+
+ 

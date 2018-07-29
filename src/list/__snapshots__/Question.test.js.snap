@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Question Component create the right snapshots 1`] = `
+<div
+  className="question__item"
+>
+  <div>
+     8 
+  </div>
+  <div>
+     Recieved 
+  </div>
+  <div>
+    <a
+      href="/edit/1"
+    >
+      Native Priest Purpose as Evidence
+    </a>
+  </div>
+  <div>
+     Libarary
+  </div>
+  <div>
+    Published 
+  </div>
+  <div>
+     Multichoice 
+  </div>
+  <div>
+     XML 
+  </div>
+</div>
+`;

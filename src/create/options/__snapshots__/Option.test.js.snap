@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option Component renders the right snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Option
+    option={
+        Object {
+            "answer": "This is not correct",
+            "feedback": "We are testing",
+            "is_correct": false,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="option__panel__header "
+>
+          <span
+                    className="option__label"
+          >
+                     A 
+          </span>
+          <span>
+                     
+                    Mark as correct
+                    <input
+                              checked={false}
+                              onChange={[Function]}
+                              type="checkbox"
+                    />
+          </span>
+</div>,
+        <div
+          className="option__panel__content"
+>
+          <Answer
+                    handleUpdate={[Function]}
+                    info="This is not correct"
+          />
+          <FeedBack
+                    handleUpdate={[Function]}
+                    info="We are testing"
+          />
+</div>,
+      ],
+      "className": "option__panel",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="option__label"
+>
+               A 
+</span>,
+            <span>
+               
+              Mark as correct
+              <input
+                            checked={false}
+                            onChange={[Function]}
+                            type="checkbox"
+              />
+</span>,
+          ],
+          "className": "option__panel__header ",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " A ",
+              "className": "option__label",
+            },
+            "ref": null,
+            "rendered": " A ",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                "Mark as correct",
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              "Mark as correct",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Answer
+              handleUpdate={[Function]}
+              info="This is not correct"
+/>,
+            <FeedBack
+              handleUpdate={[Function]}
+              info="We are testing"
+/>,
+          ],
+          "className": "option__panel__content",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleUpdate": [Function],
+              "info": "This is not correct",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleUpdate": [Function],
+              "info": "We are testing",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="option__panel__header "
+>
+            <span
+                        className="option__label"
+            >
+                         A 
+            </span>
+            <span>
+                         
+                        Mark as correct
+                        <input
+                                    checked={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                        />
+            </span>
+</div>,
+          <div
+            className="option__panel__content"
+>
+            <Answer
+                        handleUpdate={[Function]}
+                        info="This is not correct"
+            />
+            <FeedBack
+                        handleUpdate={[Function]}
+                        info="We are testing"
+            />
+</div>,
+        ],
+        "className": "option__panel",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="option__label"
+>
+                 A 
+</span>,
+              <span>
+                 
+                Mark as correct
+                <input
+                                checked={false}
+                                onChange={[Function]}
+                                type="checkbox"
+                />
+</span>,
+            ],
+            "className": "option__panel__header ",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " A ",
+                "className": "option__label",
+              },
+              "ref": null,
+              "rendered": " A ",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "Mark as correct",
+                  <input
+                    checked={false}
+                    onChange={[Function]}
+                    type="checkbox"
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "Mark as correct",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "onChange": [Function],
+                    "type": "checkbox",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Answer
+                handleUpdate={[Function]}
+                info="This is not correct"
+/>,
+              <FeedBack
+                handleUpdate={[Function]}
+                info="We are testing"
+/>,
+            ],
+            "className": "option__panel__content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleUpdate": [Function],
+                "info": "This is not correct",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleUpdate": [Function],
+                "info": "We are testing",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"title": "This is a question",
+		"description": "Some question description",
+		"reviewed": false,
+		"library": "Ahmedu Bello University",
+		"type": "Multi Choice",
+		"visibility":"Published", 
+		"options": [
+			{
+				"answer": "The answer for the question",
+				"feedback": "Some feedback",
+				"is_correct": false
+			},
+			{
+				"answer": "The answer for the question",
+				"feedback": "Some feedback",
+				"is_correct": false
+			},
+			{
+				"answer": "The answer for the question",
+				"feedback": "Some feedback",
+				"is_correct": false
+			},
+			{
+				"answer": "The answer for the question",
+				"feedback": "Some feedback",
+				"is_correct": true
+			}
+		]
+	}
+
+]
