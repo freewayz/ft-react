@@ -89,8 +89,8 @@ if os.getenv('DOCKER'):
         'default' : {
             'ENGINE' : 'djongo',
             'NAME' : 'finetune',
-            'HOST': 'mongodb://mongodb',
-            'PORT': 27777,
+            'HOST': 'mongodb://db',
+            'PORT': 27017,
             "ENFORCE_SCHEMA": False
         }
     }
