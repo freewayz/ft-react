@@ -15,4 +15,4 @@ EXPOSE 8000
 
 WORKDIR $DOCKYARD_SRC
 COPY ./entrypoint.sh /
-ENTRYPOINT ["django-admin migrate", "&&", "gunicorn", "question.wsgi:application","--bind=0.0.0.0:8000"]
+ENTRYPOINT ["django-admin", "migrate", "&&", "gunicorn", "question.wsgi:application","--bind=0.0.0.0:8000"]
