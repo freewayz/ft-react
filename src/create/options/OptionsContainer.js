@@ -5,17 +5,10 @@ import {editOption} from './../../actions'
 import Option from './Option'
 
 class OptionsContainer extends React.Component {
-	constructor (props) {
-		super(props)
-		this.state = {
-
-		}
-	}
 
 	handleUpdateOptionEdit = (details) => {
 		// the index of the option
 		this.props.editOption({details})
-
 	}
 
 	render () {
@@ -39,7 +32,8 @@ class OptionsContainer extends React.Component {
 }
 
 OptionsContainer.propTypes = {
-	editOption: PropTypes.func
+	options: PropTypes.array,
+	editOption: PropTypes.func.isRequired
 }
 
 const mapDispatchToProps = {

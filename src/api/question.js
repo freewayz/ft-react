@@ -1,8 +1,7 @@
 import mockQuestions from './mock-questions'
 import axios from 'axios'
 
-let baseUrl = 'http://localhost:8000/v1/questions/'
-console.log('@@Reache here ', process.env.REACT_APP_HOST_ENV)
+let baseUrl = 'http://localhost:9090/v1/questions/'
 if (process.env.REACT_APP_HOST_ENV === 'prod') {
   baseUrl = '/v1/questions/'
 }
