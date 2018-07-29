@@ -15,7 +15,6 @@ class TextEditor extends React.Component {
 	}
 
 	handleChange = (event) => {
-		console.log('This changes', event)
 		const value = this.props.inputMode ? event.target.value: event
 		this.setState({value})
 		if (this.props.onTextChange) {

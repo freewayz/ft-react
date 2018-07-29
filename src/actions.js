@@ -60,6 +60,6 @@ export const saveQuestionEdit = () => (dispatch, getState) => {
       dispatch({type: 'SUCCESS_UPDATING_QUESTION'})
     })
     .catch((err) => {
-      console.log('@@@Cathc ', err)
+      console.log('Error Saving Question ', err)
     })
 }

@@ -39,12 +39,7 @@ class QuestionResource(viewsets.ModelViewSet):
     serializer_class = QuestionSerializer
 
 
-    def createdd(self, request):
-        s_data = self.serializer_class(data=request.data)
-        if s_data.is_valid():
-            s_data.save()
 
-            return Response(data={'message': 'New Question created '}, status=200)
-        return Response(data=s_data.errors, status=400)
+
 
 

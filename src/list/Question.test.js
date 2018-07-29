@@ -17,6 +17,10 @@ describe('Question Component', () => {
   })
 
   it('renders the Questions with the right texts', () => {
-    const question = shallow(<Question {...questionProps} />, {context})
+    const wrapper = shallow(<Question {...questionProps} />, {context})
+    const divs = wrapper.find('div')
+    // target the title div
+    expect(divs.at(3).text()).toBe('Question Title')
+    expect(divs.length).toBe(8)
   })
 })

@@ -16,12 +16,15 @@ class Option(models.Model):
 
 
 class Question(models.Model):
-    #uid = models.AutoField()
     title = models.CharField(max_length=120)
     description = models.TextField()
     options = models.ArrayModelField(
         model_container=Option
     )
+    library = models.CharField(max_length=120)
+    reviewed = models.BooleanField(default=False)
+    visibility = models.CharField(max_length=30, null=True, default='Draft')
+    type = models.CharField(max_length=20, default='Text')
 
     objects = models.DjongoManager()
 

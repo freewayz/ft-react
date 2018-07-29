@@ -9,12 +9,17 @@ class QuestionCreateContainer extends React.Component {
 		super(props)
 		this.state = {
 			title: '',
-			description: ''
+			description: '',
+			reviewed: false,
+			library: "Ahmedu Bello University",
+			type: "Multi Choice",
+			visibility:"Draft",
 		}
 	}
 
 	handleSaveQuestion = () => {
 		const {addQuestion} = this.props
+		// use the default question state for creating a new question
 		addQuestion({...this.state, options:[]} )
 	}
 
