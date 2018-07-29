@@ -1,4 +1,5 @@
 echo '##Building client docker '
+yarn install
 env $(cat .env) yarn run build
 mv build docker/
 docker build -t finetune-client docker/
