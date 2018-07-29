@@ -1,4 +1,5 @@
-Simple React and Django App, using Docker, Nginx, Gunicorn and Mongodb
+
+Simple Web App to Demostrate `React,Django,Docker, Nginx, Gunicorn and Mongodb`  
 
 
 ### Start App in docker mode
