@@ -84,6 +84,16 @@ DATABASES = {
         'ENFORCE_SCHEMA': False
     }
 }
+if os.getenv('DOCKER'):
+    DATABASES = {
+        'default' : {
+            'ENGINE' : 'djongo',
+            'NAME' : 'finetune',
+            'HOST': 'mongodb://mongodb',
+            'PORT': 27777,
+            "ENFORCE_SCHEMA": False
+        }
+    }
 
 
 # Password validation

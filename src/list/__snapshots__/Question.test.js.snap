@@ -22,32 +22,57 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div>
+        <div
+          className="question__item__col"
+>
            
           3
            
 </div>,
-        <div>
-           Recieved 
+        <div
+          className="question__item__col"
+>
+           
+          <i
+                    class="fas fa-check"
+          />
+           
 </div>,
-        <div>
+        <div
+          className="quetion__item__col question__title"
+>
           <a
                     href="/edit/3"
           >
                     Question Title
           </a>
 </div>,
+        <div
+          className="question__item__col"
+/>,
+        <div
+          className="question__item__col"
+/>,
+        <div
+          className="question__item__col"
+/>,
         <div>
-           Libarary
+          <span
+                    aria-label="xml"
+                    role="img"
+          >
+                    ❌
+          </span>
 </div>,
         <div>
-          Published 
-</div>,
-        <div>
-           Multichoice 
-</div>,
-        <div>
-           XML 
+           
+          <Link
+                    replace={false}
+                    to="/edit/3"
+          >
+                     Edit 
+          </Link>
+           
 </div>,
       ],
       "className": "question__item",
@@ -64,6 +89,7 @@ ShallowWrapper {
             3,
             " ",
           ],
+          "className": "question__item__col",
         },
         "ref": null,
         "rendered": Array [
@@ -78,10 +104,31 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": " Recieved ",
+          "children": Array [
+            " ",
+            <i
+              class="fas fa-check"
+/>,
+            " ",
+          ],
+          "className": "question__item__col",
         },
         "ref": null,
-        "rendered": " Recieved ",
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "class": "fas fa-check",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          " ",
+        ],
         "type": "div",
       },
       Object {
@@ -94,6 +141,7 @@ ShallowWrapper {
 >
             Question Title
 </a>,
+          "className": "quetion__item__col question__title",
         },
         "ref": null,
         "rendered": Object {
@@ -115,10 +163,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": " Libarary",
+          "children": undefined,
+          "className": "question__item__col",
         },
         "ref": null,
-        "rendered": " Libarary",
+        "rendered": null,
         "type": "div",
       },
       Object {
@@ -126,10 +175,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Published ",
+          "children": undefined,
+          "className": "question__item__col",
         },
         "ref": null,
-        "rendered": "Published ",
+        "rendered": null,
         "type": "div",
       },
       Object {
@@ -137,10 +187,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": " Multichoice ",
+          "children": undefined,
+          "className": "question__item__col",
         },
         "ref": null,
-        "rendered": " Multichoice ",
+        "rendered": null,
         "type": "div",
       },
       Object {
@@ -148,10 +199,63 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": " XML ",
+          "children": <span
+            aria-label="xml"
+            role="img"
+>
+            ❌
+</span>,
         },
         "ref": null,
-        "rendered": " XML ",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-label": "xml",
+            "children": "❌",
+            "role": "img",
+          },
+          "ref": null,
+          "rendered": "❌",
+          "type": "span",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            " ",
+            <Link
+              replace={false}
+              to="/edit/3"
+>
+               Edit 
+</Link>,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": " Edit ",
+              "replace": false,
+              "to": "/edit/3",
+            },
+            "ref": null,
+            "rendered": " Edit ",
+            "type": [Function],
+          },
+          " ",
+        ],
         "type": "div",
       },
     ],
@@ -164,32 +268,57 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div>
+          <div
+            className="question__item__col"
+>
              
             3
              
 </div>,
-          <div>
-             Recieved 
+          <div
+            className="question__item__col"
+>
+             
+            <i
+                        class="fas fa-check"
+            />
+             
 </div>,
-          <div>
+          <div
+            className="quetion__item__col question__title"
+>
             <a
                         href="/edit/3"
             >
                         Question Title
             </a>
 </div>,
+          <div
+            className="question__item__col"
+/>,
+          <div
+            className="question__item__col"
+/>,
+          <div
+            className="question__item__col"
+/>,
           <div>
-             Libarary
+            <span
+                        aria-label="xml"
+                        role="img"
+            >
+                        ❌
+            </span>
 </div>,
           <div>
-            Published 
-</div>,
-          <div>
-             Multichoice 
-</div>,
-          <div>
-             XML 
+             
+            <Link
+                        replace={false}
+                        to="/edit/3"
+            >
+                         Edit 
+            </Link>
+             
 </div>,
         ],
         "className": "question__item",
@@ -206,6 +335,7 @@ ShallowWrapper {
               3,
               " ",
             ],
+            "className": "question__item__col",
           },
           "ref": null,
           "rendered": Array [
@@ -220,10 +350,31 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": " Recieved ",
+            "children": Array [
+              " ",
+              <i
+                class="fas fa-check"
+/>,
+              " ",
+            ],
+            "className": "question__item__col",
           },
           "ref": null,
-          "rendered": " Recieved ",
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "class": "fas fa-check",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            " ",
+          ],
           "type": "div",
         },
         Object {
@@ -236,6 +387,7 @@ ShallowWrapper {
 >
               Question Title
 </a>,
+            "className": "quetion__item__col question__title",
           },
           "ref": null,
           "rendered": Object {
@@ -257,10 +409,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": " Libarary",
+            "children": undefined,
+            "className": "question__item__col",
           },
           "ref": null,
-          "rendered": " Libarary",
+          "rendered": null,
           "type": "div",
         },
         Object {
@@ -268,10 +421,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Published ",
+            "children": undefined,
+            "className": "question__item__col",
           },
           "ref": null,
-          "rendered": "Published ",
+          "rendered": null,
           "type": "div",
         },
         Object {
@@ -279,10 +433,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": " Multichoice ",
+            "children": undefined,
+            "className": "question__item__col",
           },
           "ref": null,
-          "rendered": " Multichoice ",
+          "rendered": null,
           "type": "div",
         },
         Object {
@@ -290,10 +445,63 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": " XML ",
+            "children": <span
+              aria-label="xml"
+              role="img"
+>
+              ❌
+</span>,
           },
           "ref": null,
-          "rendered": " XML ",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-label": "xml",
+              "children": "❌",
+              "role": "img",
+            },
+            "ref": null,
+            "rendered": "❌",
+            "type": "span",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              " ",
+              <Link
+                replace={false}
+                to="/edit/3"
+>
+                 Edit 
+</Link>,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": " Edit ",
+                "replace": false,
+                "to": "/edit/3",
+              },
+              "ref": null,
+              "rendered": " Edit ",
+              "type": [Function],
+            },
+            " ",
+          ],
           "type": "div",
         },
       ],

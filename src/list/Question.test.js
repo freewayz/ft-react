@@ -21,6 +21,6 @@ describe('Question Component', () => {
     const divs = wrapper.find('div')
     // target the title div
     expect(divs.at(3).text()).toBe('Question Title')
-    expect(divs.length).toBe(8)
+    expect(divs.length).toBe(9)
   })
 })

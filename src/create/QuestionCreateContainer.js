@@ -11,10 +11,11 @@ class QuestionCreateContainer extends React.Component {
 			title: '',
 			description: '',
 			reviewed: false,
-			library: "Ahmedu Bello University",
+			library: "AP US History",
 			type: "Multi Choice",
 			visibility:"Draft",
 		}
+		this.typesOptions = ['Multi Choice', 'Free Response', 'Text', 'Quiz']
 	}
 
 	handleSaveQuestion = () => {
@@ -24,10 +25,13 @@ class QuestionCreateContainer extends React.Component {
 	}
 
 	handleTextChange = (name, value) => {
+
 		this.setState({
-			[name]: value
+			[name]: name === 'type'? value.target.value : value
 		})
 	}
+
+
 
 	render () {
 		const {title, description} = this.state
@@ -45,6 +49,26 @@ class QuestionCreateContainer extends React.Component {
 					info={description}
 					onTextChange={this.handleTextChange.bind(this, 'description')}
 					/>
+				<div className='question__input__row'>
+					<label className='q__label'>
+						Question Type
+					</label>
+					<div>
+					{
+						this.typesOptions.map((value, index) =>
+							<label key={index} style={{paddingRight: '10px'}}>
+								{value}
+								<input 
+									type='radio' 
+									value={value}
+									onChange={this.handleTextChange.bind(this, 'type')}
+									checked={this.state.type === value} />
+
+							</label>
+						)
+					}
+				</div>
+				</div>
 
 				<button className='btn primary' onClick={this.handleSaveQuestion}>Save Question</button>
 			</div>

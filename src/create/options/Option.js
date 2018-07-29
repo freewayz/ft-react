@@ -41,6 +41,7 @@ class Option extends React.Component {
 					</span>
 				</div>
 				<div className='option__panel__content'>
+					{/* Handle compoenent differently so we can test and refactor with ease */}
 				<Answer info={option.answer} handleUpdate={this.optionChange} />
 				<FeedBack info={option.feedback} {...commonProps} />
 			</div>

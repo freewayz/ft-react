@@ -20,19 +20,25 @@ class QuestionContainer extends Component {
       <div>
         <a href='/create' className='btn primary left'> Add Question</a>
         <div className='clearfix' />
-        <div className='question__list'>
-          <div className='question__item question__item__header'>
-            <span>ID</span>
-            <span>Accum Reviewed </span>
-            <span>Title</span>
-            <span>Library</span>
-            <span>Visibility</span>
-            <span>Type</span>
-            <span>Type</span>
-            <span>XML</span>
+        { questions.length > 0
+          ? <div className='question__list'>
+            <div className='question__item question__item__header'>
+              <span className='question__item__col'>ID Accum</span>
+              <span className='question__item__col'>Reviewed</span>
+              <span className='question__item__col question__title'>Title</span>
+              <span className='question__item__col'>Library</span>
+              <span className='question__item__col'>Visibility</span>
+              <span className='question__item__col'>Type</span>
+              <span className='question__item__col'>XML</span>
+              <span className='question__item__col'> Action </span>
+            </div>
+            <Questions questions={questions} />
           </div>
-          <Questions questions={questions} />
-        </div>
+          :	<div style={{textAlign: 'center'}}>
+            <div><i class='fal fa-box-open' /></div>
+            <h3>No Question has been added, use the Add Quesiton button to create one</h3>
+          </div>
+        }
       </div>
     )
   }

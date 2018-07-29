@@ -33,6 +33,7 @@ export const addQuestion = (data) => (dispatch, getState) => {
   })
   postQuestion(data)
     .then((respone) => {
+      alert('Created succefull')
       dispatch({
         type: 'ADD_QUESTION_SUCCESSFULL'
       })

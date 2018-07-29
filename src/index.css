@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .question__list {
@@ -16,9 +16,20 @@ body {
 
 .question__item {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
   padding: 10px;
   border-bottom: 1px solid #cccccc
+}
+
+.question__item__col {
+  flex-grow: 1;
+  text-align: left;
+  width: 20%;
+}
+
+.question__title  {
+  flex-grow: 2;
+  width: 30%;
 }
 
 .btn{
