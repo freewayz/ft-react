@@ -120,6 +120,9 @@ textarea {
 .left {
   float: left;
 }
+.right {
+	float: right;
+}
 
 .clearfix::after {
   content: "";
@@ -143,7 +146,7 @@ textarea {
 
 .content__section {
   margin: auto;
-  widows: 70%;
+  width: 70%;
 }
 
 .edit__header {

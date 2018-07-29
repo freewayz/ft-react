@@ -70,7 +70,7 @@ class QuestionCreateContainer extends React.Component {
 				</div>
 				</div>
 
-				<button className='btn primary' onClick={this.handleSaveQuestion}>Save Question</button>
+				<button className='btn primary right' onClick={this.handleSaveQuestion}>Save Question</button>
 			</div>
 		)
 	}
