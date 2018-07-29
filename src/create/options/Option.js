@@ -15,6 +15,11 @@ class Option extends React.Component {
 
 	}
 
+	handleRemoveOption = () => {
+		const {id, removeOption} = this.props
+		removeOption(id)
+	}
+
 	optionChange = (value) => {
 		// update redux store with any of children 
 		// component value change (Answer,FeedBack and Checkbox)
@@ -32,13 +37,19 @@ class Option extends React.Component {
 		return (
 			<div className='option__panel'>
 				<div className={`option__panel__header ${panelStyle}`}>
+					{/* TODO create some helper utils to get the option index value ['A','B','C'..] */}
 					<span className='option__label'> A </span>
+					<div>
 					<span> {is_correct ? 'Correct' : 'Mark as correct'}
 			<input 
 							type='checkbox' 
 							onChange={this.handleIsCorrect}
 							checked={this.state.is_correct} />
 					</span>
+					<button style={{background: 'none', border: 'none'}}
+						onClick={this.handleRemoveOption}><span role='img' aria-label='remove'> ⛔️</span> 
+					</button>
+				</div>
 				</div>
 				<div className='option__panel__content'>
 					{/* Handle compoenent differently so we can test and refactor with ease */}

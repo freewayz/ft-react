@@ -28,3 +28,6 @@ yarn-error.log*
 package-lock.json
 .pytest_cache/
 *.swp
+
+django/assignment.egg-info
+django/docker/assignment-0.0.1.tar.gz

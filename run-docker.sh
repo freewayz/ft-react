@@ -11,4 +11,4 @@ cd django
 exec ./build.sh
 cd ..
 echo 'Visit http://localhost:9000'
-docker-compose up
+exec docker-compose up

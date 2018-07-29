@@ -6,7 +6,7 @@ import './App.css'
 const NavHeader = () => {
   return (
     <div className='nav__header'>
-      <h1> Fine Tune Content Manager </h1>
+      <h1>Demo Content Manager </h1>
     </div>
   )
 }

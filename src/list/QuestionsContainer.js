@@ -35,7 +35,7 @@ class QuestionContainer extends Component {
             <Questions questions={questions} />
           </div>
           :	<div style={{textAlign: 'center'}}>
-            <div><i class='fal fa-box-open' /></div>
+            <div><i className='fal fa-box-open' /></div>
             <h3>No Question has been added, use the Add Quesiton button to create one</h3>
           </div>
         }

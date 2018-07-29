@@ -12,6 +12,7 @@ const INIT_QUESTIONS = 'INIT_QUESTIONS'
 const FIND_QUESTION_SUCCESS = 'FIND_QUESTION_SUCCESS'
 const ADD_OPTION = 'ADD_OPTION'
 const EDIT_OPTION = 'EDIT_OPTION'
+const REMOVE_OPTION = 'REMOVE_OPTION'
 const UPDATE_QUESTION_EDIT = 'UPDATE_QUESTION_EDIT'
 
 const questions = (state = defaultState, action) => {
@@ -59,6 +60,18 @@ const questions = (state = defaultState, action) => {
           options: [...options]
         }
       }
+    case REMOVE_OPTION:
+      const filterOptions = [...state.questionEdit.options].filter((option, index) => {
+        return index !== action.id
+      })
+      return {
+        ...state,
+        questionEdit: {
+          ...state.questionEdit,
+          options: [...filterOptions]
+        }
+      }
+
     case UPDATE_QUESTION_EDIT:
       return {
         ...state,

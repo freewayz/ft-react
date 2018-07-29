@@ -1,7 +1,8 @@
+export DOCKER=100
 DJANGO_SETTINGS_MODULE=question.settings
 
+django-admin migrate
 
- # Prepare log files and start outputting logs to stdout
 
 echo Starting Gunicorn
 exec gunicorn question.wsgi:application \

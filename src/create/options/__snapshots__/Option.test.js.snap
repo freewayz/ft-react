@@ -34,15 +34,33 @@ ShallowWrapper {
           >
                      A 
           </span>
-          <span>
-                     
-                    Mark as correct
-                    <input
-                              checked={false}
-                              onChange={[Function]}
-                              type="checkbox"
-                    />
-          </span>
+          <div>
+                    <span>
+                               
+                              Mark as correct
+                              <input
+                                        checked={false}
+                                        onChange={[Function]}
+                                        type="checkbox"
+                              />
+                    </span>
+                    <button
+                              onClick={[Function]}
+                              style={
+                                        Object {
+                                                  "background": "none",
+                                                  "border": "none",
+                                                }
+                              }
+                    >
+                              <span
+                                        aria-label="remove"
+                                        role="img"
+                              >
+                                         ⛔️
+                              </span>
+                    </button>
+          </div>
 </div>,
         <div
           className="option__panel__content"
@@ -72,15 +90,33 @@ ShallowWrapper {
 >
                A 
 </span>,
-            <span>
-               
-              Mark as correct
-              <input
-                            checked={false}
-                            onChange={[Function]}
-                            type="checkbox"
-              />
-</span>,
+            <div>
+              <span>
+                             
+                            Mark as correct
+                            <input
+                                          checked={false}
+                                          onChange={[Function]}
+                                          type="checkbox"
+                            />
+              </span>
+              <button
+                            onClick={[Function]}
+                            style={
+                                          Object {
+                                                        "background": "none",
+                                                        "border": "none",
+                                                      }
+                            }
+              >
+                            <span
+                                          aria-label="remove"
+                                          role="img"
+                            >
+                                           ⛔️
+                            </span>
+              </button>
+</div>,
           ],
           "className": "option__panel__header ",
         },
@@ -104,34 +140,105 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                " ",
-                "Mark as correct",
-                <input
-                  checked={false}
-                  onChange={[Function]}
-                  type="checkbox"
-/>,
+                <span>
+                   
+                  Mark as correct
+                  <input
+                                    checked={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                  />
+</span>,
+                <button
+                  onClick={[Function]}
+                  style={
+                                    Object {
+                                                      "background": "none",
+                                                      "border": "none",
+                                                    }
+                  }
+>
+                  <span
+                                    aria-label="remove"
+                                    role="img"
+                  >
+                                     ⛔️
+                  </span>
+</button>,
               ],
             },
             "ref": null,
             "rendered": Array [
-              " ",
-              "Mark as correct",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "checked": false,
-                  "onChange": [Function],
-                  "type": "checkbox",
+                  "children": Array [
+                    " ",
+                    "Mark as correct",
+                    <input
+                      checked={false}
+                      onChange={[Function]}
+                      type="checkbox"
+/>,
+                  ],
                 },
                 "ref": null,
-                "rendered": null,
-                "type": "input",
+                "rendered": Array [
+                  " ",
+                  "Mark as correct",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "onChange": [Function],
+                      "type": "checkbox",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    aria-label="remove"
+                    role="img"
+>
+                     ⛔️
+</span>,
+                  "onClick": [Function],
+                  "style": Object {
+                    "background": "none",
+                    "border": "none",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-label": "remove",
+                    "children": " ⛔️",
+                    "role": "img",
+                  },
+                  "ref": null,
+                  "rendered": " ⛔️",
+                  "type": "span",
+                },
+                "type": "button",
               },
             ],
-            "type": "span",
+            "type": "div",
           },
         ],
         "type": "div",
@@ -200,15 +307,33 @@ ShallowWrapper {
             >
                          A 
             </span>
-            <span>
-                         
-                        Mark as correct
-                        <input
-                                    checked={false}
-                                    onChange={[Function]}
-                                    type="checkbox"
-                        />
-            </span>
+            <div>
+                        <span>
+                                     
+                                    Mark as correct
+                                    <input
+                                                checked={false}
+                                                onChange={[Function]}
+                                                type="checkbox"
+                                    />
+                        </span>
+                        <button
+                                    onClick={[Function]}
+                                    style={
+                                                Object {
+                                                            "background": "none",
+                                                            "border": "none",
+                                                          }
+                                    }
+                        >
+                                    <span
+                                                aria-label="remove"
+                                                role="img"
+                                    >
+                                                 ⛔️
+                                    </span>
+                        </button>
+            </div>
 </div>,
           <div
             className="option__panel__content"
@@ -238,15 +363,33 @@ ShallowWrapper {
 >
                  A 
 </span>,
-              <span>
-                 
-                Mark as correct
-                <input
-                                checked={false}
-                                onChange={[Function]}
-                                type="checkbox"
-                />
-</span>,
+              <div>
+                <span>
+                                 
+                                Mark as correct
+                                <input
+                                                checked={false}
+                                                onChange={[Function]}
+                                                type="checkbox"
+                                />
+                </span>
+                <button
+                                onClick={[Function]}
+                                style={
+                                                Object {
+                                                                "background": "none",
+                                                                "border": "none",
+                                                              }
+                                }
+                >
+                                <span
+                                                aria-label="remove"
+                                                role="img"
+                                >
+                                                 ⛔️
+                                </span>
+                </button>
+</div>,
             ],
             "className": "option__panel__header ",
           },
@@ -270,34 +413,105 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  " ",
-                  "Mark as correct",
-                  <input
-                    checked={false}
-                    onChange={[Function]}
-                    type="checkbox"
-/>,
+                  <span>
+                     
+                    Mark as correct
+                    <input
+                                        checked={false}
+                                        onChange={[Function]}
+                                        type="checkbox"
+                    />
+</span>,
+                  <button
+                    onClick={[Function]}
+                    style={
+                                        Object {
+                                                            "background": "none",
+                                                            "border": "none",
+                                                          }
+                    }
+>
+                    <span
+                                        aria-label="remove"
+                                        role="img"
+                    >
+                                         ⛔️
+                    </span>
+</button>,
                 ],
               },
               "ref": null,
               "rendered": Array [
-                " ",
-                "Mark as correct",
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "checked": false,
-                    "onChange": [Function],
-                    "type": "checkbox",
+                    "children": Array [
+                      " ",
+                      "Mark as correct",
+                      <input
+                        checked={false}
+                        onChange={[Function]}
+                        type="checkbox"
+/>,
+                    ],
                   },
                   "ref": null,
-                  "rendered": null,
-                  "type": "input",
+                  "rendered": Array [
+                    " ",
+                    "Mark as correct",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "onChange": [Function],
+                        "type": "checkbox",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span
+                      aria-label="remove"
+                      role="img"
+>
+                       ⛔️
+</span>,
+                    "onClick": [Function],
+                    "style": Object {
+                      "background": "none",
+                      "border": "none",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-label": "remove",
+                      "children": " ⛔️",
+                      "role": "img",
+                    },
+                    "ref": null,
+                    "rendered": " ⛔️",
+                    "type": "span",
+                  },
+                  "type": "button",
                 },
               ],
-              "type": "span",
+              "type": "div",
             },
           ],
           "type": "div",

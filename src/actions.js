@@ -4,7 +4,10 @@ export const addOption = (option) => ({
   type: 'ADD_OPTION',
   data: option
 })
-
+export const removeOption = (id) => ({
+  type: 'REMOVE_OPTION',
+  id
+})
 export const editOption = (details) => ({
   type: 'EDIT_OPTION',
   data: {...details}

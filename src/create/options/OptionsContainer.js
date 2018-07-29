@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import PropTypes from 'prop-types'
-import {editOption} from './../../actions'
+import {editOption, removeOption} from './../../actions'
 import Option from './Option'
 
 class OptionsContainer extends React.Component {
@@ -12,7 +12,7 @@ class OptionsContainer extends React.Component {
 	}
 
 	render () {
-		const {options} = this.props
+		const {options, removeOption} = this.props
 		return (
 			<div className='question__options'>
 				<h2>Answers </h2>
@@ -21,6 +21,7 @@ class OptionsContainer extends React.Component {
 						options.map((option, index) => <Option
 							option={option} 
 							id={index}
+							removeOption={removeOption}
 							onUpdate={this.handleUpdateOptionEdit}
 							key={index} />
 						)
@@ -33,11 +34,13 @@ class OptionsContainer extends React.Component {
 
 OptionsContainer.propTypes = {
 	options: PropTypes.array,
-	editOption: PropTypes.func.isRequired
+	editOption: PropTypes.func.isRequired,
+	removeOption: PropTypes.func.isRequired
 }
 
 const mapDispatchToProps = {
 	editOption,
+	removeOption
 }
 
 export default connect(null, mapDispatchToProps)(OptionsContainer)
