@@ -36,6 +36,7 @@ export const addQuestion = (data) => (dispatch, getState) => {
   })
   postQuestion(data)
     .then((respone) => {
+      // bad use some kind of notification
       alert('Created succefull')
       dispatch({
         type: 'ADD_QUESTION_SUCCESSFULL'
@@ -62,6 +63,8 @@ export const saveQuestionEdit = () => (dispatch, getState) => {
   putQuestion(questionEdit)
     .then((res) => {
       dispatch({type: 'SUCCESS_UPDATING_QUESTION'})
+      // this is bad remove
+      alert('Question Updated Succesfully')
     })
     .catch((err) => {
       console.log('Error Saving Question ', err)

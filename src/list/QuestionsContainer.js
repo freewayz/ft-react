@@ -30,7 +30,7 @@ class QuestionContainer extends Component {
               <span className='question__item__col'>Visibility</span>
               <span className='question__item__col'>Type</span>
               <span className='question__item__col'>XML</span>
-              <span className='question__item__col'> Action </span>
+              <span className='question__item__col'>Action </span>
             </div>
             <Questions questions={questions} />
           </div>

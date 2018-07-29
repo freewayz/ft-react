@@ -37,7 +37,7 @@ class QuestionCreateContainer extends React.Component {
 		const {title, description} = this.state
 
 		return (
-			<div>
+			<div className='content__section'>
 				<TextEditor
 					inputMode
 					label={'Title'}

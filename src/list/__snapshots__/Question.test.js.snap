@@ -34,7 +34,7 @@ ShallowWrapper {
 >
            
           <i
-                    class="fas fa-check"
+                    className="fas fa-check"
           />
            
 </div>,
@@ -56,7 +56,9 @@ ShallowWrapper {
         <div
           className="question__item__col"
 />,
-        <div>
+        <div
+          className="question__item__col"
+>
           <span
                     aria-label="xml"
                     role="img"
@@ -64,7 +66,9 @@ ShallowWrapper {
                     ❌
           </span>
 </div>,
-        <div>
+        <div
+          className="question__item__col"
+>
            
           <Link
                     replace={false}
@@ -107,7 +111,7 @@ ShallowWrapper {
           "children": Array [
             " ",
             <i
-              class="fas fa-check"
+              className="fas fa-check"
 />,
             " ",
           ],
@@ -121,7 +125,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "class": "fas fa-check",
+              "className": "fas fa-check",
             },
             "ref": null,
             "rendered": null,
@@ -205,6 +209,7 @@ ShallowWrapper {
 >
             ❌
 </span>,
+          "className": "question__item__col",
         },
         "ref": null,
         "rendered": Object {
@@ -237,6 +242,7 @@ ShallowWrapper {
 </Link>,
             " ",
           ],
+          "className": "question__item__col",
         },
         "ref": null,
         "rendered": Array [
@@ -280,7 +286,7 @@ ShallowWrapper {
 >
              
             <i
-                        class="fas fa-check"
+                        className="fas fa-check"
             />
              
 </div>,
@@ -302,7 +308,9 @@ ShallowWrapper {
           <div
             className="question__item__col"
 />,
-          <div>
+          <div
+            className="question__item__col"
+>
             <span
                         aria-label="xml"
                         role="img"
@@ -310,7 +318,9 @@ ShallowWrapper {
                         ❌
             </span>
 </div>,
-          <div>
+          <div
+            className="question__item__col"
+>
              
             <Link
                         replace={false}
@@ -353,7 +363,7 @@ ShallowWrapper {
             "children": Array [
               " ",
               <i
-                class="fas fa-check"
+                className="fas fa-check"
 />,
               " ",
             ],
@@ -367,7 +377,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "class": "fas fa-check",
+                "className": "fas fa-check",
               },
               "ref": null,
               "rendered": null,
@@ -451,6 +461,7 @@ ShallowWrapper {
 >
               ❌
 </span>,
+            "className": "question__item__col",
           },
           "ref": null,
           "rendered": Object {
@@ -483,6 +494,7 @@ ShallowWrapper {
 </Link>,
               " ",
             ],
+            "className": "question__item__col",
           },
           "ref": null,
           "rendered": Array [
